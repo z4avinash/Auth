@@ -1,0 +1,51 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	display: flex;
+	height: 10vh;
+	background-color: black;
+	color: white;
+	font-size: 30px;
+	font-weight: 700;
+	align-items: center;
+	justify-content: center;
+}
+
+.container {
+	display: flex;
+	height: 90vh;
+	justify-content: center;
+	align-items: center;
+}
+
+#register,
+#login {
+	padding: 10px;
+	font-size: 25px;
+	font-weight: 500;
+	color: white;
+	background-color: teal;
+	outline: none;
+	border: none;
+	border-radius: 10px;
+	cursor: pointer;
+	box-shadow: 0 3px 8px 5px #333333;
+}
+
+#login {
+	background-color: white;
+	color: teal;
+}
+
+#register:active {
+	transform: translateY(1.2px);
+	box-shadow: 0 1px 1px 1px #333333;
+}
+
+#login:active {
+	transform: translateY(1.2px);
+	box-shadow: 0 1px 1px 1px #333333;
+}
